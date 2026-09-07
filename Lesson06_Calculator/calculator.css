@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+.calculator {
+    background-color: #333333;
+    border-radius: 16px;
+    padding: 16px;
+    width: 280px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+.display {
+    background-color: #222222;
+    color: white;
+    font-size: 36px;
+    text-align: right;
+    padding: 16px;
+    border-radius: 8px;
+    margin-bottom: 12px;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 8px;
+}
+
+button {
+    padding: 18px 0;
+    font-size: 20px;
+    border: none;
+    border-radius: 8px;
+    background-color: #555555;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #777777;
+}
+
+/* TODO: תנו לכפתורי הפעולות (class="operator") צבע שונה */
