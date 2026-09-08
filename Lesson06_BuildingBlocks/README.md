@@ -1,4 +1,4 @@
-# שיעור 5 — אבני הבניין: div, class, button ו-Grid
+# שיעור 6 — אבני הבניין: div, class, button ו-Grid
 
 קובץ פתיחה לתרגול על `<div>`, `class`, `<button>` ו-CSS Grid.
 
